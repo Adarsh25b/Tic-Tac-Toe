@@ -1,0 +1,27 @@
+.game-status
+{
+	font-family: 'Roboto',sans-serif;
+	width: 90%;
+	height:55px;
+	line-height: 50px;
+	font-size:calc(20px + .5vw);
+	text-align: center;
+	color:hsl(36, 100%, 92%);
+	padding-top: .5em;
+	margin:0;
+}
+
+.game-status > span{
+	display: inline-block;
+	width: 1.1em;
+}
+
+
+@media only screen and (min-width: 1001px) {
+
+    .game-status {
+        height: auto;
+        line-height: normal;
+        padding-top: 1.2em;
+    }
+}

@@ -1,0 +1,37 @@
+.symbol-btn{
+	font-family: 'Roboto',sans-serif;
+	font-size: var(--sm-menu-btn-font);
+	color:hsl(224, 100%, 85%);
+	background-color: var(--menu-btn-color);
+	width: 5.7em;
+	padding: 0.3em 0;
+	border:none;
+	border-radius:5px;
+	margin-right:7px;
+	transition: var(--main-transition);
+}
+
+.symbol-btn:hover{
+	color: var(--hover-font-color);
+	background-color: var(--hover-background);
+	cursor: pointer;
+}
+
+.symbol-active{
+	color:white;
+	background-color: var(--menu-btn-active-color);
+	
+}
+
+.symbol-active:hover{
+	color:white;
+	background-color: var(--menu-btn-active-color);
+	cursor:auto;
+}
+
+@media only screen and (min-width: 1001px) {
+
+    .symbol-btn {   
+        font-size: var(--lg-menu-btn-font);
+    }
+}

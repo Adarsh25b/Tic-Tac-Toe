@@ -1,0 +1,31 @@
+.board{
+	display: grid;
+	border-radius: 7px;
+	transition:var(--main-transition);
+}
+
+.board-inactive{
+	opacity: .55;
+}
+
+.square{
+	font-family: 'Open sans', sans-serif;
+	background-color: hsl(320, 45%, 30%);
+	color: blanchedalmond;
+	border: none;
+	outline: none;
+}
+
+.filled{
+	pointer-events: none;
+}
+
+.winner-square{
+	color: hsl(214, 91%, 70%);
+}
+
+.board-inactive .sqaure{
+    cursor:initial;
+    pointer-events: none;	
+}
+
